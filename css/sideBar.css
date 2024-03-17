@@ -1,0 +1,17 @@
+#sideBar {
+  width: 10%;
+  padding: 25px;
+  border: 1px solid #e70d0d;
+  height: 92vh;
+  font-family: cursive;
+}
+
+.sidebarbutton {
+  background-color: #e70d0d;
+  color: #ffff;
+  border: 1px solid #e70d0d;
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 100%;
+  font-family: cursive;
+}
