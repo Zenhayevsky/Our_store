@@ -1,17 +1,23 @@
 #sideBar {
   width: 10%;
   padding: 25px;
-  border: 1px solid #e70d0d;
-  height: 92vh;
-  font-family: cursive;
+  border: 1px solid white;
+  height: full;
+  font-family: italics;
+
+  background-color:  #ffb6c1;
 }
 
 .sidebarbutton {
-  background-color: #e70d0d;
+  background-color:#e70d0d ;
   color: #ffff;
-  border: 1px solid #e70d0d;
+  border: 1px solid #0d90e7;
   border-radius: 10px;
   margin-top: 15px;
   width: 100%;
-  font-family: cursive;
+
+}
+
+.body-division {
+  display: flex;
 }
