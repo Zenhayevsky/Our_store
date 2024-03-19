@@ -1,23 +1,31 @@
 #sideBar {
-  width: 10%;
+  width: 15%;
   padding: 25px;
-  border: 1px solid white;
+  border: 5px solid #eee3e4;
   height: full;
   font-family: italics;
-
-  background-color:  #ffb6c1;
+  background-color: #eee3e4;
+  font-family: cursive;
+  text-align: center;
+  color: #d9838c;
+  font-size: 20px;
 }
 
-.sidebarbutton {
-  background-color:#e70d0d ;
+#sideBar button {
+  background-color: #b3535d;
   color: #ffff;
-  border: 1px solid #0d90e7;
+  border: 1px solid #b3535d;
   border-radius: 10px;
   margin-top: 15px;
   width: 100%;
-
+  height: 40px;
+  font-family: cursive;
 }
 
-.body-division {
-  display: flex;
+.sidebar_buttons {
+  margin-top: -15%;
+}
+
+#logoEE {
+  height: 160px;
 }

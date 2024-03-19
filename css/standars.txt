@@ -1,10 +1,16 @@
 Colors:
 
-red = "e70d0d"
-orange = "f5812e"
-yellow = "f1d35a"
-green = "43b366"
-white = "ffffff"
+pink900 { #b3535d };
+pink800 { #c66b74 };
+pink700 { #d9838c };
+pink600 { #ec9ba3 };
+pink500 { #ffb3ba };
+
+soft900 { #ba9194 };
+soft800 { #ccacaf };
+soft700 { #ddc8c9 };
+soft600 { #eee3e4 };
+white { #ffffff };
 
 font-family: cursive;
 areen
