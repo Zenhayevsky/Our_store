@@ -17,7 +17,6 @@ body {
   font-family: cursive;
 }
 
-
 /* style for h1 inside about-content */
 .about-content h1 {
   color: var(--pink900);
@@ -44,13 +43,11 @@ body {
   display: flex;
 }
 
-
-
 /* make everything inside content flex and responsive */
 .content {
-  flex: 1; 
-  display: flex; 
-  flex-direction: column; 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: 10px;
@@ -78,7 +75,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 /* h2 inside the selling-points */
@@ -111,13 +107,13 @@ body {
   padding-left: 10px;
 }
 
-.mission p{
+.mission p {
   padding: 37px;
   margin-top: -18px;
 }
 
 /* make everything inside store-history flex and responsive */
-.store-history{
+.store-history {
   flex: 1; /* O conteúdo ocupa todo o espaço restante */
   display: flex; /* Ativa o modelo flexbox para centralizar o conteúdo */
   flex-direction: column; /* Alinha os itens verticalmente */
