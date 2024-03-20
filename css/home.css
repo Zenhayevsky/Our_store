@@ -8,11 +8,11 @@
   height: 40%;
 }
 
-#header a {
+.header a {
   margin: 0px 30px 0px 0px;
 }
 
-#header {
+.header {
   margin-left: 2%;
   color: #cca352;
   justify-content: space-between;
