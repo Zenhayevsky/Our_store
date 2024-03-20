@@ -14,15 +14,6 @@
   color: #cca352;
 }
 
-.item img{
-  width: 30%;
-  flex: 1; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
 .material-symbols-outlined {
   padding: 13px;
   font-weight: bold;
