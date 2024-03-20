@@ -2,7 +2,7 @@
   width: 15%;
   padding: 25px;
   border: 5px solid #eee3e4;
-  height: full;
+  height: 100vh;
   font-family: italics;
   background-color: #eee3e4;
   font-family: cursive;
@@ -22,9 +22,6 @@
   font-family: cursive;
 }
 
-.sidebar_buttons {
-  margin-top: -15%;
-}
 
 #logoEE {
   height: 160px;

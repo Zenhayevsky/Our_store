@@ -12,5 +12,7 @@ soft700 { #ddc8c9 };
 soft600 { #eee3e4 };
 white { #ffffff };
 
+golden { #cca352 };
+
 font-family: cursive;
 areen
