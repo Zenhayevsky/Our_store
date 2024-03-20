@@ -40,16 +40,11 @@ body {
 }
 
 /* wrappe all inside the body */
-.wrapper {
+.body-division {
   display: flex;
 }
 
-/* sidebar */
-#sideBar {
-  width: 200px;
-  background-color: #f0f0f0;
-  padding: 20px;
-}
+
 
 /* make everything inside content flex and responsive */
 .content {
