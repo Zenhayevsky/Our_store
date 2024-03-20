@@ -137,3 +137,13 @@ footer {
 .comment p {
   font-style: italic;
 }
+
+
+.banner {
+  text-align: center;
+  padding: 10px 0;
+}
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
