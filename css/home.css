@@ -28,21 +28,6 @@
   margin-top: 1%;
 }
 
-/* #header input {
-  border: 2px solid #cca352;
-  padding: 3px;
-  color: #cca352;
-  margin-left: 48%;
-} */
-
-/* #header input:focus {
-  outline: none;
-} */
-
-/* #header input:hover {
-  background-color: #eee3e4;
-} */
-
 a:hover {
   cursor: pointer;
 }
