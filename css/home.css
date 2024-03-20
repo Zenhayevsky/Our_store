@@ -1,5 +1,6 @@
 #body-division {
   display: flex;
+  font-family: cursive;
 }
 
 #bodyHome img {
@@ -29,9 +30,33 @@
 }
 
 #header input:hover {
-    background-color: #eee3e4;
-  }
+  background-color: #eee3e4;
+}
 
 a:hover {
   cursor: pointer;
+}
+
+#categories {
+  display: flex;
+}
+
+.card_category {
+  width: 60%;
+  height: 30vh;
+  margin: 10px;
+  color: #cca352;
+  text-align: center;
+}
+
+#categories .card_category img {
+  height: 300px;
+}
+
+#store_mission {
+  border: 3px solid #cca352;
+  margin: 10px 30px 10px 30px;
+  padding: 10px 40px 10px 40px;
+  text-align: center;
+  color: #c66b74;
 }
