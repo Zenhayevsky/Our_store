@@ -14,13 +14,6 @@
   color: #cca352;
 }
 
-.header {
-  margin-left: 2%;
-  color: #cca352;
-  justify-content: space-between;
-  display: flex;
-}
-
 .material-symbols-outlined {
   padding: 13px;
   font-weight: bold;

@@ -2,7 +2,7 @@
   width: 15%;
   padding: 25px;
   border: 5px solid #eee3e4;
-  height: 100vh;
+  height: full;
   font-family: italics;
   background-color: #eee3e4;
   font-family: cursive;
@@ -22,7 +22,14 @@
   font-family: cursive;
 }
 
-
 #logoEE {
   height: 160px;
+}
+
+.header {
+  margin-left: 2%;
+  color: #cca352;
+  justify-content: space-between;
+  display: flex;
+  font-family: cursive;
 }
