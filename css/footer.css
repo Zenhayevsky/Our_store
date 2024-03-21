@@ -32,7 +32,7 @@
 }
 
 /* style the item class */
-.item {
+#footer .item {
   margin-bottom: 20px;
   padding: 1px;
   display: inline-block;
@@ -40,16 +40,16 @@
   height: 45px;
 }
 
-hr {
+#footer hr {
   width: 95%;
   color: var(--pink900);
   margin-top: 10%; /* Need to be fixed */
 }
 
-p {
+#footer p {
   align-items: center;
 }
 
-.footer-copyright-text {
+#footer .footer-copyright-text {
   width: 600px;
 }
