@@ -10,6 +10,7 @@
   --soft700: #ddc8c9;
   --soft600: #eee3e4;
   --white: #ffffff;
+  --golden: #cca352;
 }
 
 /* make footer flexibel and use all the space he has */
@@ -18,17 +19,7 @@
   display: flex;
   margin: 0px 55px 0px 55px;
   justify-content: space-between;
-}
-
-/* color of h3 inside footer */
-#footer h4 {
-  color: var(--pink900); /* Cor do título "Follow Us" */
-  padding-left: 0px;
-}
-
-/* color of the p inside footer */
-#footer p {
-  color: var(--soft900);
+  color: var(--golden);
 }
 
 /* style the item class */
@@ -40,14 +31,15 @@
   height: 45px;
 }
 
-#footer hr {
-  width: 95%;
-  color: var(--pink900);
-  margin-top: 10%; /* Need to be fixed */
+hr {
+  margin: 0px 30px 0px 30px;
+  margin-top: 5rem; /* Need to be fixed */
+  border: 1px solid var(--golden);
 }
 
 #footer p {
   align-items: center;
+  color: var(--golden);
 }
 
 #footer .footer-copyright-text {
