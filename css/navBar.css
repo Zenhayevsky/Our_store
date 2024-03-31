@@ -33,3 +33,15 @@
   display: flex;
   font-family: cursive;
 }
+
+#body-division {
+  display: flex;
+  font-family: cursive;
+}
+
+.links_header a {
+  margin: 0px 30px 0px 0px;
+  text-decoration: none;
+  color: #cca352;
+}
+
