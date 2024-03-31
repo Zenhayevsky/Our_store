@@ -154,3 +154,44 @@ footer {
   text-decoration: none;
   color: #994545;
 }
+
+.basket-icon {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #ff69b4; 
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease; 
+}
+
+
+.basket-icon:hover {
+  background-color: #d14980; 
+}
+
+
+.basket {
+  position: fixed;
+  top: 60px; 
+  right: 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  max-height: 200px; 
+  overflow-y: auto;
+  display: none; 
+  z-index: 999; 
+}
