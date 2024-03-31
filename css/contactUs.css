@@ -3,6 +3,56 @@
 }
 
 #bodyContacUs img {
-  width: 100%;
+  width: 99%;
   height: 400px;
+  margin-left: 10px;
+}
+
+.contentContactUs {
+  display: flex;
+  margin: 30px 20px 0px 20px;
+}
+
+.contactusFrom {
+  width: 100%;
+}
+
+.contactUsDataPicture {
+  width: 45%;
+}
+
+.contactUsDataPicture img {
+  border-radius: 30px;
+}
+
+.contactusFrom {
+  background-color: #fff;
+  padding: 35px;
+  border: 2px solid #ddc8c9;
+  color: #d9838c;
+}
+
+.contactusFrom input {
+  width: 100%;
+}
+
+.contactusFrom textarea {
+  width: 100%;
+}
+
+.itemform {
+  margin-top: 5px;
+}
+
+.onbt {
+  width: 100px;
+}
+
+[type="reset"] {
+  background-color: #cca352;
+  color: #eee;
+  padding: 10px 20px;
+  width: 20px;
+  border: none;
+  border-radius: 8px;
 }
