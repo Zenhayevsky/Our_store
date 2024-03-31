@@ -1,5 +1,8 @@
-
-#bodyContactUs img {
+#bodyContacUs {
   width: 100%;
-  height: 40%;
+}
+
+#bodyContacUs img {
+  width: 100%;
+  height: 400px;
 }
