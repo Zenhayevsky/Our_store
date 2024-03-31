@@ -22,6 +22,11 @@
   font-family: cursive;
 }
 
+.material-symbols-outlined {
+  padding: 13px;
+  font-weight: bold;
+}
+
 #logoEE {
   height: 160px;
 }

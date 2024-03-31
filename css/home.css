@@ -8,11 +8,6 @@
 }
 
 
-.material-symbols-outlined {
-  padding: 13px;
-  font-weight: bold;
-}
-
 .links_header {
   margin-top: 1%;
 }
@@ -27,7 +22,7 @@ a:hover {
 
 .card_category {
   width: 60%;
-  height: 30vh;
+  height: 15rem;
   color: #cca352;
   text-align: center;
 }
@@ -38,8 +33,8 @@ a:hover {
 
 #store_mission {
   border: 3px solid #cca352;
-  margin: 10px 30px 10px 30px;
-  padding: 10px 40px 10px 40px;
+  margin: 10px 8px 10px 8px;
+  padding: 10px 5px 10px 5px;
   text-align: center;
   color: #c66b74;
 }
