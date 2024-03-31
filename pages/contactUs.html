@@ -24,7 +24,7 @@
           </div>
 
           <div class="sidebar_buttons">
-            <a href="./index.html">
+            <a href=".././index.html">
               <button>
                 <p>
                       Home
@@ -34,7 +34,7 @@
           </div>
 
           <div>
-            <a href="./pages/Product.html">
+            <a href="./Product.html">
               <button>
                 <p>
                   Produtcs
@@ -44,7 +44,7 @@
           </div>
 
           <div>
-            <a href="./pages/about.html">
+            <a href="./about.html">
               <button>
                 <p>
                   About Us
@@ -54,7 +54,7 @@
           </div>
 
           <div>
-            <a href="./pages/contactUs.html">
+            <a href="./contactUs.html">
               <button>
                 <p>
                 Contact page
@@ -94,39 +94,76 @@
                   <label>
                       Name
                   </label>
+                  <div>
+                    <input type="text"/>
+                  </div>
               </div>
-
-              <div>
-                  <input type="text"/>
-              </div>
-
               <div class="itemform">
                   <label>
                       Email
                   </label>
+                  <div>
+                    <input type="text"/>
+                </div>
               </div>
-              <div>
+              <div class="itemform">
+                <label>
+                    Email
+                </label>
+                <div>
                   <input type="text"/>
+                </div>
+              </div>
+              <div class="itemform">
+                <label>
+                    Prefered contact method
+                </label>
+                <div id="ratios">
+                  <div class="item-ratio">
+                    <input type="radio" value="cellphone"/>
+                    <label>
+                      cellphone
+                    </label>
+                  </div>
+                  <div class="item-ratio">
+                      <input type="radio"/>
+                      <label>
+                        e-mail
+                      </label>
+                  </div>
+                  <div class="item-ratio">
+                      <input type="radio"/>
+                      <label>
+                        whatsapp
+                      </label>
+                  </div>
+                  <div class="item-ratio">
+                      <input type="radio"/>
+                      <label>
+                        SMS
+                      </label>
+                  </div>
+                </div>
               </div>
               <div class="itemform">
                   <label>
                       Service Inquiry
                   </label>
+                  <select size="1" style="width: 100%;">
+                    <option></option>
+                    <option>General</option>
+                    <option>Support</option>
+                    <option>Feedback</option>
+                    <option>Tracki my order</option>
+                </select>
               </div>
-              <select size="1" style="width: 100%;">
-                  <option></option>
-                  <option>General</option>
-                  <option>Support</option>
-                  <option>Feedback</option>
-                  <option>Tracki my order</option>
-              </select>
               <div class="itemform">
                   <label>
                       Message
                   </label>
-              </div>
-              <div>
-                  <textarea  rows="4" cols="25" type="textarea"></textarea>
+                  <div>
+                    <textarea  rows="4" cols="25" type="textarea"></textarea>
+                  </div>
               </div>
               <div class="itemform">
                   <div class="onbt">
@@ -134,14 +171,19 @@
                   </div>
               </div>
           </form>
-      </div>        
+        </div>        
       
-      <div class="contactUsDataPicture">
-        <img src="../pictures/contactUsData.png" alt="contactUsData"/>
-      </div>
+        <div class="contactUsDataPicture">
+          <img src="../pictures/contactUsData.png" alt="contactUsData"/>
+          <div id="message_contactUs">
+            <h4>
+              Your opinion is very important to us!
+            </h4>
+          </div>
+        </div>
+
       </div>
 
-  
   <!-- Footer -->
   
       <hr class="hr">
@@ -154,7 +196,7 @@
 
           <div>
             <div class="social">
-              <h4>Social</h4>
+              <p>Social</p>
               <div class="item">
                 <a href="https://www.facebook.com/" target="_blank">
                   <img src="../pictures/facebook.png" />
