@@ -50,3 +50,23 @@
   color: #cca352;
 }
 
+@media only screen and (max-device-width: 1000px) {
+  
+  #sideBar {
+    display: none;
+  }
+
+  header {
+    font-size: 10px;
+    display: block;
+  }
+
+  #bodyHome .material-symbols-outlined {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 900px) {
+  
+
+}
