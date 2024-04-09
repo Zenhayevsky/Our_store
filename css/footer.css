@@ -52,3 +52,21 @@ hr {
   height: 45%;
   margin-top: 1px;
 }
+
+@media only screen and (max-device-width: 900px) {
+  .social {
+    display: none;
+  }
+
+  #footer .footer-copyright-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  #footer {
+    padding: auto;
+    justify-content: space-between;
+    background-color: white;
+    margin-left:10%;
+  }
+}
