@@ -89,7 +89,7 @@ textarea {
 }
 
 @media only screen and (max-device-width: 900px) {
-  .contentContactUs {
+  #bodyContacUs .contentContactUs {
     display: block;
   }
 
@@ -101,7 +101,7 @@ textarea {
 
   #message_contactUs {
     margin-top: 20px;
-    padding: opx;
+    padding: 0px;
     text-align: center;
     color: #cca352;
   }
