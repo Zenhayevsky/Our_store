@@ -17,10 +17,6 @@
   width: 100%;
 }
 
-.contactUsDataPicture {
-  width: 50%;
-}
-
 .contactUsDataPicture img {
   border-radius: 30px;
 }
@@ -31,6 +27,7 @@
   border: 3px solid #ddc8c9;
   color: #d9838c;
   border-radius: 4px;
+  width: 100%;
 }
 
 .onbt {
@@ -89,4 +86,41 @@ textarea {
   padding: 8px 40px 10px 40px;
   text-align: center;
   color: #cca352;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .contentContactUs {
+    display: block;
+  }
+
+  .contactusFrom {
+    width: 88%;
+    margin-top: 20px;
+    margin-right: 8px;
+  }
+
+  #message_contactUs {
+    margin-top: 20px;
+    padding: opx;
+    text-align: center;
+    color: #cca352;
+  }
+
+  #ratios {
+    display: block;
+  }
+
+  .contactUsDataPicture {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .contactUsDataPicture img {
+    width: 800px;
+  }
+
+  #bodyContacUs img {
+    width: 380px;
+    margin-top: 5px;
+  }
 }
